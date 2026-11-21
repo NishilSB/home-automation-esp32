@@ -1,0 +1,23 @@
+# Secrets (NEVER commit real Wi-Fi passwords or Sinric Pro keys)
+alexa-relay/include/secrets.h
+**/secrets.h
+**/cfg.toml
+
+# Build artifacts
+.pio/
+**/.pio/
+target/
+**/target/
+
+# FreeCAD backup files
+*.FCBak
+**/*.FCBak
+
+# Scratch / unrelated experiments in local workspace
+blink/
+rust-weather/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
